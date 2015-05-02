@@ -1,0 +1,16 @@
+{% extends "template.html" %}
+
+{% block content %}
+<h3>Add shops you'd like to visit:</h3>
+<form id="addShopForm">
+	<input type="text" placeholder="type a shop name in London">
+	<button type="submit">Add</button>
+</form>
+<ol id="shopList">
+	
+</ol>
+<form id="calculateForm">
+	<button type="submit">Get optimal route</button>
+</form>
+
+{% endblock %}
