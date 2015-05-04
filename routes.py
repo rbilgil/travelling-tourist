@@ -1,8 +1,10 @@
 import os
 from flask import Flask, render_template, jsonify, request
 import foursquare_search
+import urllib3.contrib.pyopenssl
 
 app = Flask(__name__)
+urllib3.contrib.pyopenssl.inject_into_urllib3()
 
 @app.route("/")
 def home():
