@@ -1,4 +1,6 @@
-from queue import Queue
+from robin_queue import Queue
+from robin_queue import PriorityQueue
+from heapq import *
 import json
 
 class Graph:
@@ -25,6 +27,8 @@ class Graph:
 
 	def reset(self):
 		self.graph = {}
+		self.weights = {}
+		self.edge_properties = {}
 
 	def vertices(self):
 		return self.graph.keys()
@@ -88,11 +92,9 @@ class Graph:
 		vertices = self.vertices()
 		for vertex in vertices:
 			traversal = self.bfs(vertex)
-
-			if len(traversal) < vertices:
+			if len(traversal) == len(vertices) - 1:
 				return False
 		return True
-
 
 	def bfs(self, current_node):
 		visited = []
@@ -108,4 +110,38 @@ class Graph:
 					visited.append(neighbour)
 
 		return visited
+
+
+	def shortest_path(self, start, end): #uses dijkstra
+		distances = { start: 0 }
+		previous_vertices = {}
+		queue = PriorityQueue()
+
+		for v in self.vertices():
+			if v != start:
+				distances[v] = float("inf")
+			queue.queue(v, distances[v])
+
+		while not queue.empty():
+			weight, u = queue.dequeue()
+			for v in self.get_neighbours(u):
+				alternate_distance = distances[u] + self.get_weight(u, v)
+				if alternate_distance < distances[v]:
+					distances[v] = alternate_distance
+					previous_vertices[v] = u
+					queue.queue(v, alternate_distance)
+
+		trace = previous_vertices[end]
+		path = []
+		while trace in previous_vertices:
+			next = previous_vertices[trace]
+			path.insert(0, (trace, self.get_weight(trace, next), self.get_edge_properties(trace, next)["line"]))
+			trace = next
+
+		total_dist = sum([x[1] for x in path])
+		return total_dist, path
+
+
+
+
 

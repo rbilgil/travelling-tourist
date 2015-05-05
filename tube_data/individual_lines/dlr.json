@@ -1,1 +1,362 @@
-[{"lon": 0.003745, "commonName": "Abbey Road DLR Station", "icsCode": "1003006", "placeType": "StopPoint", "lat": 51.531931, "id": "940GZZDLABR"}, {"lon": -0.013128, "commonName": "All Saints DLR Station", "icsCode": "1002003", "placeType": "StopPoint", "lat": 51.511004, "id": "940GZZDLALL"}, {"lon": 0.061462, "commonName": "Beckton DLR Station", "icsCode": "1002011", "placeType": "StopPoint", "lat": 51.514366, "id": "940GZZDLBEC"}, {"lon": -0.006961, "commonName": "Blackwall DLR Station", "icsCode": "1002018", "placeType": "StopPoint", "lat": 51.507995, "id": "940GZZDLBLA"}, {"lon": -0.088509, "commonName": "Bank DLR Station", "icsCode": "1000013", "placeType": "StopPoint", "lat": 51.513237, "id": "940GZZDLBNK"}, {"lon": -0.020931, "commonName": "Bow Church DLR Station", "icsCode": "1002019", "placeType": "StopPoint", "lat": 51.527818, "id": "940GZZDLBOW"}, {"lon": 0.054942, "commonName": "Beckton Park DLR Station", "icsCode": "1002012", "placeType": "StopPoint", "lat": 51.508797, "id": "940GZZDLBPK"}, {"lon": -0.02099, "commonName": "Canary Wharf DLR Station", "icsCode": "1003008", "placeType": "StopPoint", "lat": 51.504842, "id": "940GZZDLCAN"}, {"lon": 0.00772, "commonName": "Canning Town DLR Station", "icsCode": "1000039", "placeType": "StopPoint", "lat": 51.514471, "id": "940GZZDLCGT"}, {"lon": -0.014599, "commonName": "Crossharbour DLR Station", "icsCode": "1002025", "placeType": "StopPoint", "lat": 51.495732, "id": "940GZZDLCLA"}, {"lon": 0.026708, "commonName": "Custom House (for ExCel) DLR Station", "icsCode": "1001079", "placeType": "StopPoint", "lat": 51.50972, "id": "940GZZDLCUS"}, {"lon": -0.010802, "commonName": "Cutty Sark (for Maritime Greenwich) DLR Station", "icsCode": "1002027", "placeType": "StopPoint", "lat": 51.481675, "id": "940GZZDLCUT"}, {"lon": 0.063934, "commonName": "Cyprus DLR Station", "icsCode": "1002028", "placeType": "StopPoint", "lat": 51.508477, "id": "940GZZDLCYP"}, {"lon": -0.022431, "commonName": "Deptford Bridge DLR Station", "icsCode": "1002029", "placeType": "StopPoint", "lat": 51.474218, "id": "940GZZDLDEP"}, {"lon": -0.017608, "commonName": "Devons Road DLR Station", "icsCode": "1002030", "placeType": "StopPoint", "lat": 51.522672, "id": "940GZZDLDEV"}, {"lon": -0.002319, "commonName": "East India DLR Station", "icsCode": "1002033", "placeType": "StopPoint", "lat": 51.509364, "id": "940GZZDLEIN"}, {"lon": -0.016721, "commonName": "Elverson Road DLR Station", "icsCode": "1002035", "placeType": "StopPoint", "lat": 51.469077, "id": "940GZZDLELV"}, {"lon": 0.071565, "commonName": "Gallions Reach DLR Station", "icsCode": "1002039", "placeType": "StopPoint", "lat": 51.508945, "id": "940GZZDLGAL"}, {"lon": -0.013666, "commonName": "Greenwich DLR Station", "icsCode": "1001123", "placeType": "StopPoint", "lat": 51.47809, "id": "940GZZDLGRE"}, {"lon": -0.021413, "commonName": "Heron Quays DLR Station", "icsCode": "1002046", "placeType": "StopPoint", "lat": 51.503383, "id": "940GZZDLHEQ"}, {"lon": -0.010132, "commonName": "Island Gardens DLR Station", "icsCode": "1002048", "placeType": "StopPoint", "lat": 51.487814, "id": "940GZZDLISL"}, {"lon": 0.062633, "commonName": "King George V DLR Station", "icsCode": "1002009", "placeType": "StopPoint", "lat": 51.502007, "id": "940GZZDLKGV"}, {"lon": 0.048749, "commonName": "London City Airport DLR Station", "icsCode": "1002000", "placeType": "StopPoint", "lat": 51.503419, "id": "940GZZDLLCA"}, {"lon": -0.014143, "commonName": "Langdon Park DLR Station", "icsCode": "1002034", "placeType": "StopPoint", "lat": 51.515176, "id": "940GZZDLLDP"}, {"lon": -0.012867, "commonName": "Lewisham Station", "icsCode": "1001177", "placeType": "StopPoint", "lat": 51.464668, "id": "940GZZDLLEW"}, {"lon": -0.039802, "commonName": "Limehouse DLR Station", "icsCode": "1001180", "placeType": "StopPoint", "lat": 51.512397, "id": "940GZZDLLIM"}, {"lon": -0.014731, "commonName": "Mudchute DLR Station", "icsCode": "1002061", "placeType": "StopPoint", "lat": 51.490707, "id": "940GZZDLMUD"}, {"lon": 0.032124, "commonName": "Pontoon Dock DLR Station", "icsCode": "1002099", "placeType": "StopPoint", "lat": 51.502216, "id": "940GZZDLPDK"}, {"lon": -0.017377, "commonName": "Poplar DLR Station", "icsCode": "1002064", "placeType": "StopPoint", "lat": 51.507749, "id": "940GZZDLPOP"}, {"lon": 0.034167, "commonName": "Prince Regent DLR Station", "icsCode": "1002065", "placeType": "StopPoint", "lat": 51.509267, "id": "940GZZDLPRE"}, {"lon": -0.012747, "commonName": "Pudding Mill Lane DLR Station", "icsCode": "1002066", "placeType": "StopPoint", "lat": 51.534307, "id": "940GZZDLPUD"}, {"lon": 0.045944, "commonName": "Royal Albert DLR Station", "icsCode": "1002070", "placeType": "StopPoint", "lat": 51.508361, "id": "940GZZDLRAL"}, {"lon": 0.018505, "commonName": "Royal Victoria DLR Station", "icsCode": "1002071", "placeType": "StopPoint", "lat": 51.50934, "id": "940GZZDLRVC"}, {"lon": -0.056637, "commonName": "Shadwell DLR Station", "icsCode": "1000202", "placeType": "StopPoint", "lat": 51.511697, "id": "940GZZDLSHA"}, {"lon": -0.00107, "commonName": "Stratford High Street DLR Station", "icsCode": "1003007", "placeType": "StopPoint", "lat": 51.538201, "id": "940GZZDLSHS"}, {"lon": -0.00963, "commonName": "Stratford International DLR Station", "icsCode": "1003009", "placeType": "StopPoint", "lat": 51.545271, "id": "940GZZDLSIT"}, {"lon": -0.015967, "commonName": "South Quay DLR Station", "icsCode": "1002074", "placeType": "StopPoint", "lat": 51.500054, "id": "940GZZDLSOQ"}, {"lon": -0.003279, "commonName": "Stratford DLR Station", "icsCode": "1000226", "placeType": "StopPoint", "lat": 51.541763, "id": "940GZZDLSTD"}, {"lon": 0.004164, "commonName": "Star Lane DLR Station", "icsCode": "1003005", "placeType": "StopPoint", "lat": 51.520791, "id": "940GZZDLSTL"}, {"lon": -0.074813, "commonName": "Tower Gateway DLR Station", "icsCode": "1002076", "placeType": "StopPoint", "lat": 51.510621, "id": "940GZZDLTWG"}, {"lon": -0.026743, "commonName": "Westferry DLR Station", "icsCode": "1002083", "placeType": "StopPoint", "lat": 51.509435, "id": "940GZZDLWFE"}, {"lon": 0.00449, "commonName": "West Ham DLR Station", "icsCode": "1000262", "placeType": "StopPoint", "lat": 51.527899, "id": "940GZZDLWHM"}, {"lon": -0.020304, "commonName": "West India Quay DLR Station", "icsCode": "1002084", "placeType": "StopPoint", "lat": 51.507034, "id": "940GZZDLWIQ"}, {"lon": 0.069136, "commonName": "Woolwich Arsenal DLR Station", "icsCode": "1003000", "placeType": "StopPoint", "lat": 51.490012, "id": "940GZZDLWLA"}, {"lon": 0.022469, "commonName": "West Silvertown Station", "icsCode": "1002098", "placeType": "StopPoint", "lat": 51.502841, "id": "940GZZDLWSV"}]
+[
+    {
+        "lon": 0.003745,
+        "commonName": "Abbey Road DLR Station",
+        "icsCode": "1003006",
+        "placeType": "StopPoint",
+        "lat": 51.531931,
+        "id": "940GZZDLABR"
+    },
+    {
+        "lon": -0.013128,
+        "commonName": "All Saints DLR Station",
+        "icsCode": "1002003",
+        "placeType": "StopPoint",
+        "lat": 51.511004,
+        "id": "940GZZDLALL"
+    },
+    {
+        "lon": 0.061462,
+        "commonName": "Beckton DLR Station",
+        "icsCode": "1002011",
+        "placeType": "StopPoint",
+        "lat": 51.514366,
+        "id": "940GZZDLBEC"
+    },
+    {
+        "lon": -0.006961,
+        "commonName": "Blackwall DLR Station",
+        "icsCode": "1002018",
+        "placeType": "StopPoint",
+        "lat": 51.507995,
+        "id": "940GZZDLBLA"
+    },
+    {
+        "lon": -0.088509,
+        "commonName": "Bank DLR Station",
+        "icsCode": "1000013",
+        "placeType": "StopPoint",
+        "lat": 51.513237,
+        "id": "940GZZDLBNK"
+    },
+    {
+        "lon": -0.020931,
+        "commonName": "Bow Church DLR Station",
+        "icsCode": "1002019",
+        "placeType": "StopPoint",
+        "lat": 51.527818,
+        "id": "940GZZDLBOW"
+    },
+    {
+        "lon": 0.054942,
+        "commonName": "Beckton Park DLR Station",
+        "icsCode": "1002012",
+        "placeType": "StopPoint",
+        "lat": 51.508797,
+        "id": "940GZZDLBPK"
+    },
+    {
+        "lon": -0.02099,
+        "commonName": "Canary Wharf DLR Station",
+        "icsCode": "1003008",
+        "placeType": "StopPoint",
+        "lat": 51.504842,
+        "id": "940GZZDLCAN"
+    },
+    {
+        "lon": 0.00772,
+        "commonName": "Canning Town DLR Station",
+        "icsCode": "1000039",
+        "placeType": "StopPoint",
+        "lat": 51.514471,
+        "id": "940GZZDLCGT"
+    },
+    {
+        "lon": -0.014599,
+        "commonName": "Crossharbour DLR Station",
+        "icsCode": "1002025",
+        "placeType": "StopPoint",
+        "lat": 51.495732,
+        "id": "940GZZDLCLA"
+    },
+    {
+        "lon": 0.026708,
+        "commonName": "Custom House DLR Station",
+        "icsCode": "1001079",
+        "placeType": "StopPoint",
+        "lat": 51.50972,
+        "id": "940GZZDLCUS"
+    },
+    {
+        "lon": -0.010802,
+        "commonName": "Cutty Sark DLR Station",
+        "icsCode": "1002027",
+        "placeType": "StopPoint",
+        "lat": 51.481675,
+        "id": "940GZZDLCUT"
+    },
+    {
+        "lon": 0.063934,
+        "commonName": "Cyprus DLR Station",
+        "icsCode": "1002028",
+        "placeType": "StopPoint",
+        "lat": 51.508477,
+        "id": "940GZZDLCYP"
+    },
+    {
+        "lon": -0.022431,
+        "commonName": "Deptford Bridge DLR Station",
+        "icsCode": "1002029",
+        "placeType": "StopPoint",
+        "lat": 51.474218,
+        "id": "940GZZDLDEP"
+    },
+    {
+        "lon": -0.017608,
+        "commonName": "Devons Road DLR Station",
+        "icsCode": "1002030",
+        "placeType": "StopPoint",
+        "lat": 51.522672,
+        "id": "940GZZDLDEV"
+    },
+    {
+        "lon": -0.002319,
+        "commonName": "East India DLR Station",
+        "icsCode": "1002033",
+        "placeType": "StopPoint",
+        "lat": 51.509364,
+        "id": "940GZZDLEIN"
+    },
+    {
+        "lon": -0.016721,
+        "commonName": "Elverson Road DLR Station",
+        "icsCode": "1002035",
+        "placeType": "StopPoint",
+        "lat": 51.469077,
+        "id": "940GZZDLELV"
+    },
+    {
+        "lon": 0.071565,
+        "commonName": "Gallions Reach DLR Station",
+        "icsCode": "1002039",
+        "placeType": "StopPoint",
+        "lat": 51.508945,
+        "id": "940GZZDLGAL"
+    },
+    {
+        "lon": -0.013666,
+        "commonName": "Greenwich DLR Station",
+        "icsCode": "1001123",
+        "placeType": "StopPoint",
+        "lat": 51.47809,
+        "id": "940GZZDLGRE"
+    },
+    {
+        "lon": -0.021413,
+        "commonName": "Heron Quays DLR Station",
+        "icsCode": "1002046",
+        "placeType": "StopPoint",
+        "lat": 51.503383,
+        "id": "940GZZDLHEQ"
+    },
+    {
+        "lon": -0.010132,
+        "commonName": "Island Gardens DLR Station",
+        "icsCode": "1002048",
+        "placeType": "StopPoint",
+        "lat": 51.487814,
+        "id": "940GZZDLISL"
+    },
+    {
+        "lon": 0.062633,
+        "commonName": "King George V DLR Station",
+        "icsCode": "1002009",
+        "placeType": "StopPoint",
+        "lat": 51.502007,
+        "id": "940GZZDLKGV"
+    },
+    {
+        "lon": 0.048749,
+        "commonName": "London City Airport DLR Station",
+        "icsCode": "1002000",
+        "placeType": "StopPoint",
+        "lat": 51.503419,
+        "id": "940GZZDLLCA"
+    },
+    {
+        "lon": -0.014143,
+        "commonName": "Langdon Park DLR Station",
+        "icsCode": "1002034",
+        "placeType": "StopPoint",
+        "lat": 51.515176,
+        "id": "940GZZDLLDP"
+    },
+    {
+        "lon": -0.012867,
+        "commonName": "Lewisham DLR Station",
+        "icsCode": "1001177",
+        "placeType": "StopPoint",
+        "lat": 51.464668,
+        "id": "940GZZDLLEW"
+    },
+    {
+        "lon": -0.039802,
+        "commonName": "Limehouse DLR Station",
+        "icsCode": "1001180",
+        "placeType": "StopPoint",
+        "lat": 51.512397,
+        "id": "940GZZDLLIM"
+    },
+    {
+        "lon": -0.014731,
+        "commonName": "Mudchute DLR Station",
+        "icsCode": "1002061",
+        "placeType": "StopPoint",
+        "lat": 51.490707,
+        "id": "940GZZDLMUD"
+    },
+    {
+        "lon": 0.032124,
+        "commonName": "Pontoon Dock DLR Station",
+        "icsCode": "1002099",
+        "placeType": "StopPoint",
+        "lat": 51.502216,
+        "id": "940GZZDLPDK"
+    },
+    {
+        "lon": -0.017377,
+        "commonName": "Poplar DLR Station",
+        "icsCode": "1002064",
+        "placeType": "StopPoint",
+        "lat": 51.507749,
+        "id": "940GZZDLPOP"
+    },
+    {
+        "lon": 0.034167,
+        "commonName": "Prince Regent DLR Station",
+        "icsCode": "1002065",
+        "placeType": "StopPoint",
+        "lat": 51.509267,
+        "id": "940GZZDLPRE"
+    },
+    {
+        "lon": -0.012747,
+        "commonName": "Pudding Mill Lane DLR Station",
+        "icsCode": "1002066",
+        "placeType": "StopPoint",
+        "lat": 51.534307,
+        "id": "940GZZDLPUD"
+    },
+    {
+        "lon": 0.045944,
+        "commonName": "Royal Albert DLR Station",
+        "icsCode": "1002070",
+        "placeType": "StopPoint",
+        "lat": 51.508361,
+        "id": "940GZZDLRAL"
+    },
+    {
+        "lon": 0.018505,
+        "commonName": "Royal Victoria DLR Station",
+        "icsCode": "1002071",
+        "placeType": "StopPoint",
+        "lat": 51.50934,
+        "id": "940GZZDLRVC"
+    },
+    {
+        "lon": -0.056637,
+        "commonName": "Shadwell DLR Station",
+        "icsCode": "1000202",
+        "placeType": "StopPoint",
+        "lat": 51.511697,
+        "id": "940GZZDLSHA"
+    },
+    {
+        "lon": -0.00107,
+        "commonName": "Stratford High Street DLR Station",
+        "icsCode": "1003007",
+        "placeType": "StopPoint",
+        "lat": 51.538201,
+        "id": "940GZZDLSHS"
+    },
+    {
+        "lon": -0.00963,
+        "commonName": "Stratford International DLR Station",
+        "icsCode": "1003009",
+        "placeType": "StopPoint",
+        "lat": 51.545271,
+        "id": "940GZZDLSIT"
+    },
+    {
+        "lon": -0.015967,
+        "commonName": "South Quay DLR Station",
+        "icsCode": "1002074",
+        "placeType": "StopPoint",
+        "lat": 51.500054,
+        "id": "940GZZDLSOQ"
+    },
+    {
+        "lon": -0.003279,
+        "commonName": "Stratford DLR Station",
+        "icsCode": "1000226",
+        "placeType": "StopPoint",
+        "lat": 51.541763,
+        "id": "940GZZDLSTD"
+    },
+    {
+        "lon": 0.004164,
+        "commonName": "Star Lane DLR Station",
+        "icsCode": "1003005",
+        "placeType": "StopPoint",
+        "lat": 51.520791,
+        "id": "940GZZDLSTL"
+    },
+    {
+        "lon": -0.074813,
+        "commonName": "Tower Gateway DLR Station",
+        "icsCode": "1002076",
+        "placeType": "StopPoint",
+        "lat": 51.510621,
+        "id": "940GZZDLTWG"
+    },
+    {
+        "lon": -0.026743,
+        "commonName": "Westferry DLR Station",
+        "icsCode": "1002083",
+        "placeType": "StopPoint",
+        "lat": 51.509435,
+        "id": "940GZZDLWFE"
+    },
+    {
+        "lon": 0.00449,
+        "commonName": "West Ham DLR Station",
+        "icsCode": "1000262",
+        "placeType": "StopPoint",
+        "lat": 51.527899,
+        "id": "940GZZDLWHM"
+    },
+    {
+        "lon": -0.020304,
+        "commonName": "West India Quay DLR Station",
+        "icsCode": "1002084",
+        "placeType": "StopPoint",
+        "lat": 51.507034,
+        "id": "940GZZDLWIQ"
+    },
+    {
+        "lon": 0.069136,
+        "commonName": "Woolwich Arsenal DLR Station",
+        "icsCode": "1003000",
+        "placeType": "StopPoint",
+        "lat": 51.490012,
+        "id": "940GZZDLWLA"
+    },
+    {
+        "lon": 0.022469,
+        "commonName": "West Silvertown Station",
+        "icsCode": "1002098",
+        "placeType": "StopPoint",
+        "lat": 51.502841,
+        "id": "940GZZDLWSV"
+    }
+]

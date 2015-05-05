@@ -32,7 +32,7 @@ def get_edge_weight(edge):
 		stations = json.loads(f.read())
 		for station in stations:
 			regex = r'\([^)]*\)'
-			stationName = re.sub(regex, "", station["commonName"].strip().replace(" Underground Station", ""))
+			stationName = re.sub(regex, "", station["commonName"].strip().replace(" Underground Station", "").replace(" DLR Station", ""))
 			if edge[0] == stationName:
 				start = station
 			elif edge[1] in stationName:
