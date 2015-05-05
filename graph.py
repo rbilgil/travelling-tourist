@@ -1,9 +1,27 @@
 from queue import Queue
+import json
 
 class Graph:
 	graph = {}
 	weights = {}
 	edge_properties = {}
+
+	def as_json(self):
+		return json.dumps([
+			self.graph,
+			self.weights,
+			self.edge_properties
+		])
+
+	def from_json(self, data):
+		obj = json.loads(data)
+		self.graph = obj[0]
+		self.weights = obj[1]
+		self.edge_properties = obj[2]
+
+	def from_json_file(self, file):
+		with open(file, "r") as f:
+			self.from_json(f.read())
 
 	def reset(self):
 		self.graph = {}

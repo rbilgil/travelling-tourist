@@ -66,5 +66,5 @@ def get_lat_lon(station_name):
 
 if __name__ == '__main__':
 	tube = convert_tube_data()
-	with open(get_filename_from_line("tube_graph"), "w") as f:
-		f.write(json.dumps(tube.graph))
+	with open(get_filename_from_line("../tube_graph"), "w") as f:
+		f.write(tube.as_json())
