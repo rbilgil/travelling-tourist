@@ -185,7 +185,7 @@
     },
     {
         "lon": -0.452256,
-        "commonName": "Heathrow Terminals 1-2-3 Underground Station ",
+        "commonName": "Heathrow Terminals 1-2-3 Underground Station",
         "icsCode": "1000105",
         "placeType": "StopPoint",
         "lat": 51.471239,
@@ -193,7 +193,7 @@
     },
     {
         "lon": -0.223619,
-        "commonName": "Hammersmith (Dist&Picc Line) Underground Station",
+        "commonName": "Hammersmith Underground Station",
         "icsCode": "1000096",
         "placeType": "StopPoint",
         "lat": 51.492304,
