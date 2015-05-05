@@ -1,0 +1,130 @@
+[
+    {
+        "lon": -0.041143,
+        "commonName": "Blackhorse Road Underground Station",
+        "icsCode": "1000024",
+        "placeType": "StopPoint",
+        "lat": 51.586925,
+        "id": "940GZZLUBLR"
+    },
+    {
+        "lon": -0.114884,
+        "commonName": "Brixton Underground Station",
+        "icsCode": "1000031",
+        "placeType": "StopPoint",
+        "lat": 51.462621,
+        "id": "940GZZLUBXN"
+    },
+    {
+        "lon": -0.134234,
+        "commonName": "Euston Underground Station",
+        "icsCode": "1000077",
+        "placeType": "StopPoint",
+        "lat": 51.528191,
+        "id": "940GZZLUEUS"
+    },
+    {
+        "lon": -0.106819,
+        "commonName": "Finsbury Park Underground Station",
+        "icsCode": "1000083",
+        "placeType": "StopPoint",
+        "lat": 51.564164,
+        "id": "940GZZLUFPK"
+    },
+    {
+        "lon": -0.142783,
+        "commonName": "Green Park Underground Station",
+        "icsCode": "1000093",
+        "placeType": "StopPoint",
+        "lat": 51.506951,
+        "id": "940GZZLUGPK"
+    },
+    {
+        "lon": -0.103319,
+        "commonName": "Highbury & Islington Underground Station",
+        "icsCode": "1000108",
+        "placeType": "StopPoint",
+        "lat": 51.546355,
+        "id": "940GZZLUHAI"
+    },
+    {
+        "lon": -0.12319,
+        "commonName": "King's Cross St. Pancras Underground Station",
+        "icsCode": "1000129",
+        "placeType": "StopPoint",
+        "lat": 51.530668,
+        "id": "940GZZLUKSX"
+    },
+    {
+        "lon": -0.141899,
+        "commonName": "Oxford Circus Underground Station",
+        "icsCode": "1000173",
+        "placeType": "StopPoint",
+        "lat": 51.515228,
+        "id": "940GZZLUOXC"
+    },
+    {
+        "lon": -0.133757,
+        "commonName": "Pimlico Underground Station",
+        "icsCode": "1000180",
+        "placeType": "StopPoint",
+        "lat": 51.489101,
+        "id": "940GZZLUPCO"
+    },
+    {
+        "lon": -0.122639,
+        "commonName": "Stockwell Underground Station",
+        "icsCode": "1000223",
+        "placeType": "StopPoint",
+        "lat": 51.472188,
+        "id": "940GZZLUSKW"
+    },
+    {
+        "lon": -0.072577,
+        "commonName": "Seven Sisters Underground Station",
+        "icsCode": "1000201",
+        "placeType": "StopPoint",
+        "lat": 51.583336,
+        "id": "940GZZLUSVS"
+    },
+    {
+        "lon": -0.060234,
+        "commonName": "Tottenham Hale Underground Station",
+        "icsCode": "1000236",
+        "placeType": "StopPoint",
+        "lat": 51.588115,
+        "id": "940GZZLUTMH"
+    },
+    {
+        "lon": -0.143098,
+        "commonName": "Victoria Underground Station",
+        "icsCode": "1000248",
+        "placeType": "StopPoint",
+        "lat": 51.496363,
+        "id": "940GZZLUVIC"
+    },
+    {
+        "lon": -0.1242,
+        "commonName": "Vauxhall Underground Station",
+        "icsCode": "1000247",
+        "placeType": "StopPoint",
+        "lat": 51.485747,
+        "id": "940GZZLUVXL"
+    },
+    {
+        "lon": -0.138317,
+        "commonName": "Warren Street Underground Station",
+        "icsCode": "1000252",
+        "placeType": "StopPoint",
+        "lat": 51.524956,
+        "id": "940GZZLUWRR"
+    },
+    {
+        "lon": -0.019877,
+        "commonName": "Walthamstow Central Underground Station",
+        "icsCode": "1000249",
+        "placeType": "StopPoint",
+        "lat": 51.582971,
+        "id": "940GZZLUWWL"
+    }
+]

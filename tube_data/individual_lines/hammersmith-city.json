@@ -1,0 +1,234 @@
+[
+    {
+        "lon": -0.072378,
+        "commonName": "Aldgate East Underground Station",
+        "icsCode": "1000004",
+        "placeType": "StopPoint",
+        "lat": 51.515042,
+        "id": "940GZZLUADE"
+    },
+    {
+        "lon": -0.011531,
+        "commonName": "Bromley-by-Bow Underground Station",
+        "icsCode": "1000032",
+        "placeType": "StopPoint",
+        "lat": 51.524844,
+        "id": "940GZZLUBBB"
+    },
+    {
+        "lon": -0.097988,
+        "commonName": "Barbican Underground Station",
+        "icsCode": "1000014",
+        "placeType": "StopPoint",
+        "lat": 51.52028,
+        "id": "940GZZLUBBN"
+    },
+    {
+        "lon": 0.081064,
+        "commonName": "Barking Underground Station",
+        "icsCode": "1000015",
+        "placeType": "StopPoint",
+        "lat": 51.539326,
+        "id": "940GZZLUBKG"
+    },
+    {
+        "lon": -0.157127,
+        "commonName": "Baker Street Underground Station",
+        "icsCode": "1000011",
+        "placeType": "StopPoint",
+        "lat": 51.522888,
+        "id": "940GZZLUBST"
+    },
+    {
+        "lon": -0.025121,
+        "commonName": "Bow Road Underground Station",
+        "icsCode": "1000029",
+        "placeType": "StopPoint",
+        "lat": 51.526944,
+        "id": "940GZZLUBWR"
+    },
+    {
+        "lon": 0.051195,
+        "commonName": "East Ham Underground Station",
+        "icsCode": "1000068",
+        "placeType": "StopPoint",
+        "lat": 51.538953,
+        "id": "940GZZLUEHM"
+    },
+    {
+        "lon": -0.167829,
+        "commonName": "Edgware Road (Circle Line) Underground Station",
+        "icsCode": "1000072",
+        "placeType": "StopPoint",
+        "lat": 51.519863,
+        "id": "940GZZLUERC"
+    },
+    {
+        "lon": -0.135825,
+        "commonName": "Euston Square Underground Station",
+        "icsCode": "1000078",
+        "placeType": "StopPoint",
+        "lat": 51.525609,
+        "id": "940GZZLUESQ"
+    },
+    {
+        "lon": -0.104908,
+        "commonName": "Farringdon Underground Station",
+        "icsCode": "1000080",
+        "placeType": "StopPoint",
+        "lat": 51.520257,
+        "id": "940GZZLUFCN"
+    },
+    {
+        "lon": -0.226714,
+        "commonName": "Goldhawk Road Underground Station",
+        "icsCode": "1000088",
+        "placeType": "StopPoint",
+        "lat": 51.502009,
+        "id": "940GZZLUGHK"
+    },
+    {
+        "lon": -0.144258,
+        "commonName": "Great Portland Street Underground Station",
+        "icsCode": "1000091",
+        "placeType": "StopPoint",
+        "lat": 51.523845,
+        "id": "940GZZLUGPS"
+    },
+    {
+        "lon": -0.224175,
+        "commonName": "Hammersmith (H&C Line) Underground Station",
+        "icsCode": "1000097",
+        "placeType": "StopPoint",
+        "lat": 51.493176,
+        "id": "940GZZLUHSC"
+    },
+    {
+        "lon": -0.12319,
+        "commonName": "King's Cross St. Pancras Underground Station",
+        "icsCode": "1000129",
+        "placeType": "StopPoint",
+        "lat": 51.530668,
+        "id": "940GZZLUKSX"
+    },
+    {
+        "lon": -0.210389,
+        "commonName": "Ladbroke Grove Underground Station",
+        "icsCode": "1000131",
+        "placeType": "StopPoint",
+        "lat": 51.517454,
+        "id": "940GZZLULAD"
+    },
+    {
+        "lon": -0.217797,
+        "commonName": "Latimer Road Underground Station",
+        "icsCode": "1000134",
+        "placeType": "StopPoint",
+        "lat": 51.513394,
+        "id": "940GZZLULRD"
+    },
+    {
+        "lon": -0.083176,
+        "commonName": "Liverpool Street Underground Station",
+        "icsCode": "1000138",
+        "placeType": "StopPoint",
+        "lat": 51.517377,
+        "id": "940GZZLULVT"
+    },
+    {
+        "lon": -0.033633,
+        "commonName": "Mile End Underground Station",
+        "icsCode": "1000146",
+        "placeType": "StopPoint",
+        "lat": 51.525127,
+        "id": "940GZZLUMED"
+    },
+    {
+        "lon": -0.088317,
+        "commonName": "Moorgate Underground Station",
+        "icsCode": "1000149",
+        "placeType": "StopPoint",
+        "lat": 51.51818,
+        "id": "940GZZLUMGT"
+    },
+    {
+        "lon": -0.178303,
+        "commonName": "Paddington (H&C Line)-Underground",
+        "icsCode": "1000175",
+        "placeType": "StopPoint",
+        "lat": 51.518192,
+        "id": "940GZZLUPAH"
+    },
+    {
+        "lon": 0.01746,
+        "commonName": "Plaistow Underground Station",
+        "icsCode": "1000182",
+        "placeType": "StopPoint",
+        "lat": 51.531345,
+        "id": "940GZZLUPLW"
+    },
+    {
+        "lon": -0.188745,
+        "commonName": "Royal Oak Underground Station",
+        "icsCode": "1000196",
+        "placeType": "StopPoint",
+        "lat": 51.519118,
+        "id": "940GZZLURYO"
+    },
+    {
+        "lon": -0.226373,
+        "commonName": "Shepherd's Bush Market Underground Station",
+        "icsCode": "1000204",
+        "placeType": "StopPoint",
+        "lat": 51.505583,
+        "id": "940GZZLUSBM"
+    },
+    {
+        "lon": -0.046589,
+        "commonName": "Stepney Green Underground Station",
+        "icsCode": "1000220",
+        "placeType": "StopPoint",
+        "lat": 51.521863,
+        "id": "940GZZLUSGN"
+    },
+    {
+        "lon": 0.035272,
+        "commonName": "Upton Park Underground Station",
+        "icsCode": "1000245",
+        "placeType": "StopPoint",
+        "lat": 51.535345,
+        "id": "940GZZLUUPK"
+    },
+    {
+        "lon": 0.005063,
+        "commonName": "West Ham Underground Station",
+        "icsCode": "1000262",
+        "placeType": "StopPoint",
+        "lat": 51.528141,
+        "id": "940GZZLUWHM"
+    },
+    {
+        "lon": -0.224528,
+        "commonName": "Wood Lane Underground Station",
+        "icsCode": "1000278",
+        "placeType": "StopPoint",
+        "lat": 51.509674,
+        "id": "940GZZLUWLA"
+    },
+    {
+        "lon": -0.059965,
+        "commonName": "Whitechapel Underground Station",
+        "icsCode": "1000268",
+        "placeType": "StopPoint",
+        "lat": 51.519522,
+        "id": "940GZZLUWPL"
+    },
+    {
+        "lon": -0.201063,
+        "commonName": "Westbourne Park Underground Station",
+        "icsCode": "1000259",
+        "placeType": "StopPoint",
+        "lat": 51.521115,
+        "id": "940GZZLUWSP"
+    }
+]

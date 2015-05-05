@@ -1,0 +1,218 @@
+[
+    {
+        "lon": -0.063762,
+        "commonName": "Bermondsey Underground Station",
+        "icsCode": "1000021",
+        "placeType": "StopPoint",
+        "lat": 51.497957,
+        "id": "940GZZLUBMY"
+    },
+    {
+        "lon": -0.149719,
+        "commonName": "Bond Street Underground Station",
+        "icsCode": "1000025",
+        "placeType": "StopPoint",
+        "lat": 51.514309,
+        "id": "940GZZLUBND"
+    },
+    {
+        "lon": -0.157127,
+        "commonName": "Baker Street Underground Station",
+        "icsCode": "1000011",
+        "placeType": "StopPoint",
+        "lat": 51.522888,
+        "id": "940GZZLUBST"
+    },
+    {
+        "lon": 0.00833,
+        "commonName": "Canning Town Underground Station",
+        "icsCode": "1000039",
+        "placeType": "StopPoint",
+        "lat": 51.513588,
+        "id": "940GZZLUCGT"
+    },
+    {
+        "lon": -0.294693,
+        "commonName": "Canons Park Underground Station",
+        "icsCode": "1000041",
+        "placeType": "StopPoint",
+        "lat": 51.6077,
+        "id": "940GZZLUCPK"
+    },
+    {
+        "lon": -0.049715,
+        "commonName": "Canada Water Underground Station",
+        "icsCode": "1000037",
+        "placeType": "StopPoint",
+        "lat": 51.497949,
+        "id": "940GZZLUCWR"
+    },
+    {
+        "lon": -0.018239,
+        "commonName": "Canary Wharf Underground Station",
+        "icsCode": "1000038",
+        "placeType": "StopPoint",
+        "lat": 51.503492,
+        "id": "940GZZLUCYF"
+    },
+    {
+        "lon": -0.239066,
+        "commonName": "Dollis Hill Underground Station",
+        "icsCode": "1000061",
+        "placeType": "StopPoint",
+        "lat": 51.551961,
+        "id": "940GZZLUDOH"
+    },
+    {
+        "lon": -0.179842,
+        "commonName": "Finchley Road Underground Station",
+        "icsCode": "1000082",
+        "placeType": "StopPoint",
+        "lat": 51.54683,
+        "id": "940GZZLUFYR"
+    },
+    {
+        "lon": -0.142783,
+        "commonName": "Green Park Underground Station",
+        "icsCode": "1000093",
+        "placeType": "StopPoint",
+        "lat": 51.506951,
+        "id": "940GZZLUGPK"
+    },
+    {
+        "lon": -0.204102,
+        "commonName": "Kilburn Underground Station",
+        "icsCode": "1000126",
+        "placeType": "StopPoint",
+        "lat": 51.546809,
+        "id": "940GZZLUKBN"
+    },
+    {
+        "lon": -0.27879,
+        "commonName": "Kingsbury Underground Station",
+        "icsCode": "1000128",
+        "placeType": "StopPoint",
+        "lat": 51.584852,
+        "id": "940GZZLUKBY"
+    },
+    {
+        "lon": -0.088867,
+        "commonName": "London Bridge Underground Station",
+        "icsCode": "1000139",
+        "placeType": "StopPoint",
+        "lat": 51.505725,
+        "id": "940GZZLULNB"
+    },
+    {
+        "lon": -0.249836,
+        "commonName": "Neasden Underground Station",
+        "icsCode": "1000153",
+        "placeType": "StopPoint",
+        "lat": 51.553992,
+        "id": "940GZZLUNDN"
+    },
+    {
+        "lon": 0.004295,
+        "commonName": "North Greenwich Underground Station",
+        "icsCode": "1000160",
+        "placeType": "StopPoint",
+        "lat": 51.500474,
+        "id": "940GZZLUNGW"
+    },
+    {
+        "lon": -0.286219,
+        "commonName": "Queensbury Underground Station",
+        "icsCode": "1000185",
+        "placeType": "StopPoint",
+        "lat": 51.594196,
+        "id": "940GZZLUQBY"
+    },
+    {
+        "lon": -0.173945,
+        "commonName": "St. John's Wood Underground Station",
+        "icsCode": "1000222",
+        "placeType": "StopPoint",
+        "lat": 51.534527,
+        "id": "940GZZLUSJW"
+    },
+    {
+        "lon": -0.00345,
+        "commonName": "Stratford Underground Station",
+        "icsCode": "1000226",
+        "placeType": "StopPoint",
+        "lat": 51.541811,
+        "id": "940GZZLUSTD"
+    },
+    {
+        "lon": -0.303267,
+        "commonName": "Stanmore Underground Station",
+        "icsCode": "1000219",
+        "placeType": "StopPoint",
+        "lat": 51.619838,
+        "id": "940GZZLUSTM"
+    },
+    {
+        "lon": -0.174891,
+        "commonName": "Swiss Cottage Underground Station",
+        "icsCode": "1000230",
+        "placeType": "StopPoint",
+        "lat": 51.543687,
+        "id": "940GZZLUSWC"
+    },
+    {
+        "lon": -0.104935,
+        "commonName": "Southwark Underground Station",
+        "icsCode": "1000215",
+        "placeType": "StopPoint",
+        "lat": 51.50398,
+        "id": "940GZZLUSWK"
+    },
+    {
+        "lon": 0.005063,
+        "commonName": "West Ham Underground Station",
+        "icsCode": "1000262",
+        "placeType": "StopPoint",
+        "lat": 51.528141,
+        "id": "940GZZLUWHM"
+    },
+    {
+        "lon": -0.191056,
+        "commonName": "West Hampstead Underground Station",
+        "icsCode": "1000263",
+        "placeType": "StopPoint",
+        "lat": 51.546644,
+        "id": "940GZZLUWHP"
+    },
+    {
+        "lon": -0.221535,
+        "commonName": "Willesden Green Underground Station",
+        "icsCode": "1000270",
+        "placeType": "StopPoint",
+        "lat": 51.549151,
+        "id": "940GZZLUWIG"
+    },
+    {
+        "lon": -0.114776,
+        "commonName": "Waterloo Underground Station",
+        "icsCode": "1000254",
+        "placeType": "StopPoint",
+        "lat": 51.503303,
+        "id": "940GZZLUWLO"
+    },
+    {
+        "lon": -0.124857,
+        "commonName": "Westminster Underground Station",
+        "icsCode": "1000266",
+        "placeType": "StopPoint",
+        "lat": 51.501324,
+        "id": "940GZZLUWSM"
+    },
+    {
+        "lon": -0.279261,
+        "commonName": "Wembley Park Underground Station",
+        "icsCode": "1000257",
+        "placeType": "StopPoint",
+        "lat": 51.563204,
+        "id": "940GZZLUWYP"
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "lon": -0.088948,
+        "commonName": "Bank Underground Station",
+        "icsCode": "1000013",
+        "placeType": "StopPoint",
+        "lat": 51.513424,
+        "id": "940GZZLUBNK"
+    },
+    {
+        "lon": -0.114776,
+        "commonName": "Waterloo Underground Station",
+        "icsCode": "1000254",
+        "placeType": "StopPoint",
+        "lat": 51.503303,
+        "id": "940GZZLUWLO"
+    }
+]

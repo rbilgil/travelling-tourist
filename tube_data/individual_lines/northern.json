@@ -1,0 +1,402 @@
+[
+    {
+        "lon": -0.134815,
+        "commonName": "Archway Underground Station",
+        "icsCode": "1000008",
+        "placeType": "StopPoint",
+        "lat": 51.565484,
+        "id": "940GZZLUACY"
+    },
+    {
+        "lon": -0.105893,
+        "commonName": "Angel Underground Station",
+        "icsCode": "1000007",
+        "placeType": "StopPoint",
+        "lat": 51.532629,
+        "id": "940GZZLUAGL"
+    },
+    {
+        "lon": -0.152994,
+        "commonName": "Balham Underground Station",
+        "icsCode": "1000012",
+        "placeType": "StopPoint",
+        "lat": 51.443291,
+        "id": "940GZZLUBLM"
+    },
+    {
+        "lon": -0.088948,
+        "commonName": "Bank Underground Station",
+        "icsCode": "1000013",
+        "placeType": "StopPoint",
+        "lat": 51.513424,
+        "id": "940GZZLUBNK"
+    },
+    {
+        "lon": -0.093365,
+        "commonName": "Borough Underground Station",
+        "icsCode": "1000026",
+        "placeType": "StopPoint",
+        "lat": 51.501203,
+        "id": "940GZZLUBOR"
+    },
+    {
+        "lon": -0.264047,
+        "commonName": "Burnt Oak Underground Station",
+        "icsCode": "1000034",
+        "placeType": "StopPoint",
+        "lat": 51.602781,
+        "id": "940GZZLUBTK"
+    },
+    {
+        "lon": -0.21362,
+        "commonName": "Brent Cross Underground Station",
+        "icsCode": "1000030",
+        "placeType": "StopPoint",
+        "lat": 51.576656,
+        "id": "940GZZLUBTX"
+    },
+    {
+        "lon": -0.164644,
+        "commonName": "Belsize Park Underground Station",
+        "icsCode": "1000020",
+        "placeType": "StopPoint",
+        "lat": 51.550316,
+        "id": "940GZZLUBZP"
+    },
+    {
+        "lon": -0.153384,
+        "commonName": "Chalk Farm Underground Station",
+        "icsCode": "1000043",
+        "placeType": "StopPoint",
+        "lat": 51.544124,
+        "id": "940GZZLUCFM"
+    },
+    {
+        "lon": -0.127273,
+        "commonName": "Charing Cross Underground Station",
+        "icsCode": "1000045",
+        "placeType": "StopPoint",
+        "lat": 51.507415,
+        "id": "940GZZLUCHX"
+    },
+    {
+        "lon": -0.249918,
+        "commonName": "Colindale Underground Station",
+        "icsCode": "1000054",
+        "placeType": "StopPoint",
+        "lat": 51.595431,
+        "id": "940GZZLUCND"
+    },
+    {
+        "lon": -0.138314,
+        "commonName": "Clapham Common Underground Station",
+        "icsCode": "1000050",
+        "placeType": "StopPoint",
+        "lat": 51.461745,
+        "id": "940GZZLUCPC"
+    },
+    {
+        "lon": -0.130012,
+        "commonName": "Clapham North Underground Station",
+        "icsCode": "1000051",
+        "placeType": "StopPoint",
+        "lat": 51.465138,
+        "id": "940GZZLUCPN"
+    },
+    {
+        "lon": -0.147579,
+        "commonName": "Clapham South Underground Station",
+        "icsCode": "1000052",
+        "placeType": "StopPoint",
+        "lat": 51.452657,
+        "id": "940GZZLUCPS"
+    },
+    {
+        "lon": -0.178084,
+        "commonName": "Colliers Wood Underground Station",
+        "icsCode": "1000055",
+        "placeType": "StopPoint",
+        "lat": 51.418162,
+        "id": "940GZZLUCSD"
+    },
+    {
+        "lon": -0.142735,
+        "commonName": "Camden Town Underground Station",
+        "icsCode": "1000036",
+        "placeType": "StopPoint",
+        "lat": 51.539297,
+        "id": "940GZZLUCTN"
+    },
+    {
+        "lon": -0.100601,
+        "commonName": "Elephant & Castle Underground Station",
+        "icsCode": "1000073",
+        "placeType": "StopPoint",
+        "lat": 51.49454,
+        "id": "940GZZLUEAC"
+    },
+    {
+        "lon": -0.165008,
+        "commonName": "East Finchley Underground Station",
+        "icsCode": "1000067",
+        "placeType": "StopPoint",
+        "lat": 51.587138,
+        "id": "940GZZLUEFY"
+    },
+    {
+        "lon": -0.274927,
+        "commonName": "Edgware Underground Station",
+        "icsCode": "1000070",
+        "placeType": "StopPoint",
+        "lat": 51.613652,
+        "id": "940GZZLUEGW"
+    },
+    {
+        "lon": -0.122662,
+        "commonName": "Embankment Underground Station",
+        "icsCode": "1000075",
+        "placeType": "StopPoint",
+        "lat": 51.507062,
+        "id": "940GZZLUEMB"
+    },
+    {
+        "lon": -0.134234,
+        "commonName": "Euston Underground Station",
+        "icsCode": "1000077",
+        "placeType": "StopPoint",
+        "lat": 51.528191,
+        "id": "940GZZLUEUS"
+    },
+    {
+        "lon": -0.192524,
+        "commonName": "Finchley Central Underground Station",
+        "icsCode": "1000081",
+        "placeType": "StopPoint",
+        "lat": 51.600928,
+        "id": "940GZZLUFYC"
+    },
+    {
+        "lon": -0.134357,
+        "commonName": "Goodge Street Underground Station",
+        "icsCode": "1000089",
+        "placeType": "StopPoint",
+        "lat": 51.520603,
+        "id": "940GZZLUGDG"
+    },
+    {
+        "lon": -0.194036,
+        "commonName": "Golders Green Underground Station",
+        "icsCode": "1000087",
+        "placeType": "StopPoint",
+        "lat": 51.572265,
+        "id": "940GZZLUGGN"
+    },
+    {
+        "lon": -0.194295,
+        "commonName": "High Barnet Underground Station",
+        "icsCode": "1000107",
+        "placeType": "StopPoint",
+        "lat": 51.65054,
+        "id": "940GZZLUHBT"
+    },
+    {
+        "lon": -0.226423,
+        "commonName": "Hendon Central Underground Station",
+        "icsCode": "1000106",
+        "placeType": "StopPoint",
+        "lat": 51.583307,
+        "id": "940GZZLUHCL"
+    },
+    {
+        "lon": -0.145853,
+        "commonName": "Highgate Underground Station",
+        "icsCode": "1000109",
+        "placeType": "StopPoint",
+        "lat": 51.577539,
+        "id": "940GZZLUHGT"
+    },
+    {
+        "lon": -0.178484,
+        "commonName": "Hampstead Underground Station",
+        "icsCode": "1000098",
+        "placeType": "StopPoint",
+        "lat": 51.556638,
+        "id": "940GZZLUHTD"
+    },
+    {
+        "lon": -0.105958,
+        "commonName": "Kennington Underground Station",
+        "icsCode": "1000121",
+        "placeType": "StopPoint",
+        "lat": 51.488341,
+        "id": "940GZZLUKNG"
+    },
+    {
+        "lon": -0.140729,
+        "commonName": "Kentish Town Underground Station",
+        "icsCode": "1000123",
+        "placeType": "StopPoint",
+        "lat": 51.550318,
+        "id": "940GZZLUKSH"
+    },
+    {
+        "lon": -0.12319,
+        "commonName": "King's Cross St. Pancras Underground Station",
+        "icsCode": "1000129",
+        "placeType": "StopPoint",
+        "lat": 51.530668,
+        "id": "940GZZLUKSX"
+    },
+    {
+        "lon": -0.088867,
+        "commonName": "London Bridge Underground Station",
+        "icsCode": "1000139",
+        "placeType": "StopPoint",
+        "lat": 51.505725,
+        "id": "940GZZLULNB"
+    },
+    {
+        "lon": -0.128421,
+        "commonName": "Leicester Square Underground Station",
+        "icsCode": "1000135",
+        "placeType": "StopPoint",
+        "lat": 51.51139,
+        "id": "940GZZLULSQ"
+    },
+    {
+        "lon": -0.194838,
+        "commonName": "Morden Underground Station",
+        "icsCode": "1000151",
+        "placeType": "StopPoint",
+        "lat": 51.402144,
+        "id": "940GZZLUMDN"
+    },
+    {
+        "lon": -0.088317,
+        "commonName": "Moorgate Underground Station",
+        "icsCode": "1000149",
+        "placeType": "StopPoint",
+        "lat": 51.51818,
+        "id": "940GZZLUMGT"
+    },
+    {
+        "lon": -0.209983,
+        "commonName": "Mill Hill East Underground Station",
+        "icsCode": "1000147",
+        "placeType": "StopPoint",
+        "lat": 51.608237,
+        "id": "940GZZLUMHL"
+    },
+    {
+        "lon": -0.138785,
+        "commonName": "Mornington Crescent Underground Station",
+        "icsCode": "1000152",
+        "placeType": "StopPoint",
+        "lat": 51.534684,
+        "id": "940GZZLUMTC"
+    },
+    {
+        "lon": -0.087764,
+        "commonName": "Old Street Underground Station",
+        "icsCode": "1000169",
+        "placeType": "StopPoint",
+        "lat": 51.525869,
+        "id": "940GZZLUODS"
+    },
+    {
+        "lon": -0.112434,
+        "commonName": "Oval Underground Station",
+        "icsCode": "1000172",
+        "placeType": "StopPoint",
+        "lat": 51.481853,
+        "id": "940GZZLUOVL"
+    },
+    {
+        "lon": -0.122639,
+        "commonName": "Stockwell Underground Station",
+        "icsCode": "1000223",
+        "placeType": "StopPoint",
+        "lat": 51.472188,
+        "id": "940GZZLUSKW"
+    },
+    {
+        "lon": -0.192003,
+        "commonName": "South Wimbledon Underground Station",
+        "icsCode": "1000216",
+        "placeType": "StopPoint",
+        "lat": 51.415311,
+        "id": "940GZZLUSWN"
+    },
+    {
+        "lon": -0.179207,
+        "commonName": "Totteridge & Whetstone Underground Station",
+        "icsCode": "1000237",
+        "placeType": "StopPoint",
+        "lat": 51.630605,
+        "id": "940GZZLUTAW"
+    },
+    {
+        "lon": -0.159733,
+        "commonName": "Tooting Bec Underground Station",
+        "icsCode": "1000233",
+        "placeType": "StopPoint",
+        "lat": 51.435681,
+        "id": "940GZZLUTBC"
+    },
+    {
+        "lon": -0.168371,
+        "commonName": "Tooting Broadway Underground Station",
+        "icsCode": "1000234",
+        "placeType": "StopPoint",
+        "lat": 51.427633,
+        "id": "940GZZLUTBY"
+    },
+    {
+        "lon": -0.130406,
+        "commonName": "Tottenham Court Road Underground Station",
+        "icsCode": "1000235",
+        "placeType": "StopPoint",
+        "lat": 51.516431,
+        "id": "940GZZLUTCR"
+    },
+    {
+        "lon": -0.138429,
+        "commonName": "Tufnell Park Underground Station",
+        "icsCode": "1000239",
+        "placeType": "StopPoint",
+        "lat": 51.556828,
+        "id": "940GZZLUTFP"
+    },
+    {
+        "lon": -0.188359,
+        "commonName": "West Finchley Underground Station",
+        "icsCode": "1000261",
+        "placeType": "StopPoint",
+        "lat": 51.609434,
+        "id": "940GZZLUWFN"
+    },
+    {
+        "lon": -0.114776,
+        "commonName": "Waterloo Underground Station",
+        "icsCode": "1000254",
+        "placeType": "StopPoint",
+        "lat": 51.503303,
+        "id": "940GZZLUWLO"
+    },
+    {
+        "lon": -0.185416,
+        "commonName": "Woodside Park Underground Station",
+        "icsCode": "1000276",
+        "placeType": "StopPoint",
+        "lat": 51.618021,
+        "id": "940GZZLUWOP"
+    },
+    {
+        "lon": -0.138317,
+        "commonName": "Warren Street Underground Station",
+        "icsCode": "1000252",
+        "placeType": "StopPoint",
+        "lat": 51.524956,
+        "id": "940GZZLUWRR"
+    }
+]
