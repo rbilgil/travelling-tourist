@@ -1,19 +1,17 @@
-from graph import Graph
 import random
 import math
 
-class TravelingSalesman:
 
-    def __init__(self, graph, vertices_to_visit, Tmax = 1000.0 , Tmin = 1.0, steps = 100):
-        self.Tmax = Tmax # Starting temp
-        self.Tmin = Tmin # Min temp
-        self.steps = steps # Max number of iterations
+class TravelingSalesman:
+    def __init__(self, graph, vertices_to_visit, Tmax=1000.0, Tmin=1.0, steps=100):
+        self.Tmax = Tmax  # Starting temp
+        self.Tmin = Tmin  # Min temp
+        self.steps = steps  # Max number of iterations
         self.graph = graph
         self.to_visit = vertices_to_visit
-        self.best_path = (self.compute_distance(), self.to_visit) # initially the best path is the user supplied path
+        self.best_path = (self.compute_distance(), self.to_visit)  # initially the best path is the user supplied path
 
     def get_path(self):
-        print "Starting from: " + str(self.best_path)
         self.anneal()
         return self.best_path
 
@@ -50,7 +48,7 @@ class TravelingSalesman:
         if weight < previous_weight:
             return 1.0
         else:
-            p =  math.exp(-abs(weight-previous_weight) / temperature)
+            p = math.exp(-abs(weight - previous_weight) / temperature)
             return random.random() < p
 
     def _get_temperature(self):

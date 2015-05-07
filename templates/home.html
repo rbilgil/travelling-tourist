@@ -1,16 +1,42 @@
 {% extends "template.html" %}
 
 {% block content %}
-<h3>Add shops you'd like to visit:</h3>
 
-<input type="text" placeholder="type a shop name in London" class="searchBox" />
-<button class="add">Add</button>
 
-<form class="shopList">
-	<input type="hidden">
-</form>
-<form id="calculateForm">
-	<button type="submit">Get optimal route</button>
-</form>
+<div ng-controller="SearchController" class="grid relative">
+    <div class="card searchContainer">
+        <div class="searchWrapper">
+                <div class="unit whole align-center "><span class="heading">The Traveling Tourist</span></div>
+                <div class="slider unit whole">
+                    <div class="unit half align-center">
+                        <p><strong>Step 1.</strong><br/> Add 2 or more places to visit in London (e.g. London eye)</p>
+                    </div>
+                    <div class="unit half align-center">
+                        <p><strong>Step 2.</strong><br/> Click ROUTE! for quickest tube journey that visits all.</p>
+                    </div>
+                </div>
+                <div class="searchBox">
+                    <autocomplete ng-model="search_query" data="placeNames" on-type="searchPlaces" on-select="addPlace" attr-input-id="searchBox" attr-placeholder="Type a place in London..."></autocomplete>
+                </div>
+
+        </div>
+    </div>
+
+    <div class="card placesContainer grid" ng-show="selectedPlaces.length > 0">
+        <div class="unit whole">
+            <div class="content">
+                <div class="card-title">PLACES TO VISIT</div>
+                <div class="places unit whole" ng-repeat="place in selectedPlaces">
+                    <span class="align-left" ng-bind="place['name']"></span> <span class="fa fa-trash-o red pull-right" ng-click="removePlace($index)"></span>
+                </div>
+                <div class="divider"></div>
+                <button class="btn pull-right" ng-click="getRoute()" ng-class="{ 'btn-green': !routingDisabled() }">ROUTE!</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="map"></div>
+
 
 {% endblock %}
