@@ -2,19 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b3d0484-3099-486a-aa98-eaf11952337b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tests/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generate_graph_from_tube_data.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/get_tube_data_from_tfl.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/map.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_tube.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/travelling-tourist.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/bakerloo.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/convert_tube_data.py" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/foursquare_search.py" afterPath="" />
@@ -23,20 +10,7 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/queue.py" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/read_tube_data.py" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/robin_queue.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Tests/test_graph.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/generate_graph_from_tube_data.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/get_tube_data_from_tfl.py" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/routes.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test_tube.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/tube/circle_distance.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/tube/foursquare_search.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/tube/graph.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/tube/robin_queue.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/tube/traveling_salesman.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/tube/tube_data_as_graph.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/tube/tube_route_simplifier.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/tube/tube_station_finder.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/jquery.autocomplete.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/test_graph.py" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/traveling_salesman.py" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/tube_data/individual_lines/tube_graph.json" afterPath="" />
@@ -44,14 +18,15 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/tube_data_as_graph.py" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/tube_graph.py" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/tube_stations.kml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/closest_station.py" afterPath="$PROJECT_DIR$/closest_station.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/tube/__init__.py" afterPath="$PROJECT_DIR$/static/css/home.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/autocomplete.css" afterPath="$PROJECT_DIR$/static/css/autocomplete.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/app.js" afterPath="$PROJECT_DIR$/static/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/home.css" afterPath="$PROJECT_DIR$/static/css/home.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/home.html" afterPath="$PROJECT_DIR$/templates/home.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/home.js" afterPath="$PROJECT_DIR$/static/js/home.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes.py" afterPath="$PROJECT_DIR$/routes.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/template.html" afterPath="$PROJECT_DIR$/templates/template.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tube/tube_path_finder.py" afterPath="$PROJECT_DIR$/tube/tube_path_finder.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tube/tube_route_simplifier.py" afterPath="$PROJECT_DIR$/tube/tube_route_simplifier.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="travelling-tourist.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -76,21 +51,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="home.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="home.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/js/home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1128" max-vertical-offset="2106">
-              <caret line="106" column="47" selection-start-line="106" selection-start-column="47" selection-end-line="106" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.8807947" vertical-offset="1506" max-vertical-offset="2484">
+              <caret line="128" column="6" selection-start-line="128" selection-start-column="6" selection-end-line="128" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="162">
+              <caret line="4" column="61" selection-start-line="4" selection-start-column="61" selection-end-line="4" selection-end-column="61" />
+              <folding>
+                <element signature="e#0#40#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.66512704" vertical-offset="0" max-vertical-offset="866">
-              <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+            <state vertical-scroll-proportion="-21.407408" vertical-offset="682" max-vertical-offset="1548">
+              <caret line="70" column="280" selection-start-line="70" selection-start-column="280" selection-end-line="70" selection-end-column="280" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="template.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/template.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-13.333333" vertical-offset="0" max-vertical-offset="792">
+              <caret line="20" column="94" selection-start-line="20" selection-start-column="94" selection-end-line="20" selection-end-column="94" />
               <folding />
             </state>
           </provider>
@@ -109,8 +106,8 @@
       <file leaf-file-name="home.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/css/home.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1146" max-vertical-offset="2070">
-              <caret line="108" column="16" selection-start-line="108" selection-start-column="16" selection-end-line="108" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1647" max-vertical-offset="2466">
+              <caret line="117" column="27" selection-start-line="117" selection-start-column="27" selection-end-line="117" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -119,11 +116,10 @@
       <file leaf-file-name="routes.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="774">
-              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918">
+              <caret line="40" column="45" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="45" />
               <folding>
                 <element signature="e#0#58#0" expanded="true" />
-                <marker date="1431019377446" expanded="true" signature="706:1080" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -132,8 +128,8 @@
       <file leaf-file-name="tube_path_finder.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tube/tube_path_finder.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1008">
-              <caret line="47" column="51" selection-start-line="47" selection-start-column="51" selection-end-line="47" selection-end-column="51" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1008">
+              <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -141,11 +137,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_tube.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_tube.py">
+      <file leaf-file-name="tube_station_finder.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tube/tube_station_finder.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="20" selection-end-column="68" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tube_route_simplifier.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tube/tube_route_simplifier.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1026">
+              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -165,17 +171,18 @@
         <option value="$PROJECT_DIR$/src/test_tube.py" />
         <option value="$PROJECT_DIR$/tube/foursquare_search.py" />
         <option value="$PROJECT_DIR$/test_tube.py" />
-        <option value="$PROJECT_DIR$/static/js/app.js" />
         <option value="$PROJECT_DIR$/static/js/autocomplete.js" />
-        <option value="$PROJECT_DIR$/tube/tube_path_finder.py" />
-        <option value="$PROJECT_DIR$/routes.py" />
         <option value="$PROJECT_DIR$/static/js/map.js" />
         <option value="$PROJECT_DIR$/static/css/gridism.css" />
-        <option value="$PROJECT_DIR$/templates/template.html" />
         <option value="$PROJECT_DIR$/static/css/autocomplete.css" />
-        <option value="$PROJECT_DIR$/static/js/home.js" />
+        <option value="$PROJECT_DIR$/templates/template.html" />
         <option value="$PROJECT_DIR$/static/css/home.css" />
+        <option value="$PROJECT_DIR$/static/js/app.js" />
+        <option value="$PROJECT_DIR$/tube/tube_route_simplifier.py" />
+        <option value="$PROJECT_DIR$/tube/tube_path_finder.py" />
+        <option value="$PROJECT_DIR$/routes.py" />
         <option value="$PROJECT_DIR$/templates/home.html" />
+        <option value="$PROJECT_DIR$/static/js/home.js" />
       </list>
     </option>
   </component>
@@ -319,7 +326,7 @@
     <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="rout&#9;FILE&#9;file:///home/robin/Code/travelling-tourist/routes.py&#10;routes.py&#9;FILE&#9;file:///home/robin/Code/travelling-tourist/routes.py" />
+    <property name="SearchEverywhereHistoryKey" value="templ&#9;FILE&#9;file:///home/robin/Code/travelling-tourist/templates/template.html&#10;rout&#9;FILE&#9;file:///home/robin/Code/travelling-tourist/routes.py&#10;routes.py&#9;FILE&#9;file:///home/robin/Code/travelling-tourist/routes.py" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -613,16 +620,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="126">
-          <caret line="3" column="50" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/js/autocomplete.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.23841059" vertical-offset="0" max-vertical-offset="5454">
@@ -657,27 +654,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tube/tube_path_finder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1008">
-          <caret line="47" column="51" selection-start-line="47" selection-start-column="51" selection-end-line="47" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="774">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-            <marker date="1431019377446" expanded="true" signature="706:1080" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/js/map.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="906">
@@ -696,17 +672,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/template.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.0" vertical-offset="0" max-vertical-offset="774">
-          <caret line="27" column="104" selection-start-line="27" selection-start-column="104" selection-end-line="27" selection-end-column="104" />
+        <state vertical-scroll-proportion="-13.333333" vertical-offset="0" max-vertical-offset="792">
+          <caret line="20" column="94" selection-start-line="20" selection-start-column="94" selection-end-line="20" selection-end-column="94" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/home.js">
+    <entry file="file://$PROJECT_DIR$/static/css/home.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1128" max-vertical-offset="2106">
-          <caret line="106" column="47" selection-start-line="106" selection-start-column="47" selection-end-line="106" selection-end-column="47" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1647" max-vertical-offset="2466">
+          <caret line="117" column="27" selection-start-line="117" selection-start-column="27" selection-end-line="117" selection-end-column="27" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tube/tube_station_finder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tube/tube_route_simplifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1026">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tube/tube_path_finder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1008">
+          <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="162">
+          <caret line="4" column="61" selection-start-line="4" selection-start-column="61" selection-end-line="4" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -718,18 +730,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/home.css">
+    <entry file="file://$PROJECT_DIR$/routes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1146" max-vertical-offset="2070">
-          <caret line="108" column="16" selection-start-line="108" selection-start-column="16" selection-end-line="108" selection-end-column="16" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918">
+          <caret line="40" column="45" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66512704" vertical-offset="0" max-vertical-offset="866">
-          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+        <state vertical-scroll-proportion="-21.407408" vertical-offset="682" max-vertical-offset="1548">
+          <caret line="70" column="280" selection-start-line="70" selection-start-column="280" selection-end-line="70" selection-end-column="280" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8807947" vertical-offset="1506" max-vertical-offset="2484">
+          <caret line="128" column="6" selection-start-line="128" selection-start-column="6" selection-end-line="128" selection-end-column="6" />
           <folding />
         </state>
       </provider>

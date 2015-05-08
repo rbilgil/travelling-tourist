@@ -2,11 +2,13 @@
 
 {% block content %}
 
-
-<div ng-controller="SearchController" class="grid relative">
+<div ng-controller="SearchController">
+<div class="grid relative">
     <div class="card searchContainer">
         <div class="searchWrapper">
+
                 <div class="unit whole align-center "><span class="heading">The Traveling Tourist</span></div>
+
                 <div class="slider unit whole">
                     <div class="unit half align-center">
                         <p><strong>Step 1.</strong><br/> Add 2 or more places to visit in London (e.g. London eye)</p>
@@ -15,22 +17,27 @@
                         <p><strong>Step 2.</strong><br/> Click ROUTE! for quickest tube journey that visits all.</p>
                     </div>
                 </div>
-                <div class="searchBox">
-                    <autocomplete ng-model="search_query" data="placeNames" on-type="searchPlaces" on-select="addPlace" attr-input-id="searchBox" attr-placeholder="Type a place in London..."></autocomplete>
-                </div>
 
+                <div class="searchBox">
+                    <autocomplete ng-model="search_query" ng-model-options="{debounce: 700}" data="placeNames" on-type="searchPlaces" on-select="addPlace" attr-input-id="searchBox" attr-placeholder="Type a place in London..."></autocomplete>
+                </div>
         </div>
     </div>
 
     <div class="card placesContainer grid" ng-show="selectedPlaces.length > 0">
         <div class="unit whole">
             <div class="content">
+
                 <div class="card-title">PLACES TO VISIT</div>
+
                 <div class="places unit whole" ng-repeat="place in selectedPlaces">
                     <span class="align-left" ng-bind="place['name']"></span> <span class="fa fa-trash-o red pull-right" ng-click="removePlace($index)"></span>
                 </div>
+
                 <div class="divider"></div>
-                <button class="btn pull-right" ng-click="getRoute()" ng-class="{ 'btn-green': !routingDisabled() }">ROUTE!</button>
+
+                <button class="btn pull-right" ng-if="routingDisabled()" disabled>ROUTE!</button>
+                <button class="btn pull-right btn-green" ng-click="getRoute()" ng-if="!routingDisabled()">ROUTE!</button>
             </div>
         </div>
     </div>
@@ -38,5 +45,37 @@
 
 <div id="map"></div>
 
+<div class="modal">
+<div class="grid">
+    <div class="unit whole">
+        <span class="heading">Your Route</span>
+        <span class="modal-close"><span class="fa fa-times"></span></span>
+    </div>
 
+    <div class="unit whole">
+        <div class="content">
+            <h3>Visit places in order:</h3>
+            <span ng-repeat="place in route['locations']">
+                <span ng-if="$index > 0">--></span> <span ng-bind="place[0]"></span>
+            </span>
+        </div>
+    </div>
+    <div class="unit whole">
+        <h3>The route: ( {[{ route['totalTime'] }]} mins spent travelling )</h3>
+
+        <div ng-repeat="waypoints in route['route']">
+            <div ng-if="$index == 0"><strong >Start at {[{ route['locations'][$index][0] }]} </strong></div>
+            <span>Walk from {[{ route['locations'][$index][0] }]} to {[{ waypoints[0]['from'] }]} station. <strong>( {[{ getWalkingTime($index) }]} )</strong></span>
+            <br/>
+            <div ng-repeat="waypoint in waypoints">
+                <span ng-bind="waypoint['from']"></span> --> <span ng-bind="waypoint['to']"></span>, on <span ng-bind="waypoint['line']"></span> line going <span ng-bind="waypoint['direction']"></span>-bound, <strong>{[{ waypoint["stops"] }]} stops, {[{ getTubeTravelTime(waypoint) }]} mins</strong>
+            </div>
+            <span>Walk to {[{ route['locations'][$index + 1][0] }]} <strong>( {[{ getWalkingTime($index + 1) }]} )</strong></span>
+            <br/>
+            ------------
+        </div>
+    </div>
+</div>
+</div>
+</div>
 {% endblock %}

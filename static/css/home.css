@@ -108,3 +108,25 @@ body {
     margin: 5px 0;
     float: left;
 }
+
+.modal {
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+    max-width: 800px;
+    max-height: 600px;
+    background-color: #fff;
+    overflow: auto;
+    border-radius: 2px;
+}
+
+.modal-close {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 1.5em;
+}
+
+.modal-close:hover {
+    cursor: pointer;
+}

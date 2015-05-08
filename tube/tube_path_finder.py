@@ -16,17 +16,17 @@ class TubePathFinder:
 
     def get_path(self):
         stations = list(set(
-            [self.closest_station_to(*val) for val in self.route_coords]))  # the list(set()) removes duplicate stations
+            [self.closest_station_to(*val)[0] for val in self.route_coords]))  # the list(set()) removes duplicate stations
         distance, path = self._traveling_salesman(stations)
         routes = self.tube_graph.generate_route(path)
         route_simplifier = TubeRouteSimplifier(routes, stations)
         simple_routes = route_simplifier.get_simplified_routes()
 
-        return path, simple_routes
+        return path, simple_routes, distance, stations
 
     def closest_station_to(self, lat, lon):
         finder = TubeStationFinder(self.tube_graph)
-        return finder.closest_to(lat, lon)[0]
+        return finder.closest_to(lat, lon)
 
     def _random_stops(self):
         vertices = self.tube_graph.vertices()
@@ -46,6 +46,6 @@ class TubePathFinder:
     def sort_locations(self, locations, path):
         sorted_locations = range(len(path))
         for key, location in locations.iteritems():
-            sorted_locations[path.index(self.closest_station_to(*location))] = (key, location)
+            sorted_locations[path.index(self.closest_station_to(*location)[0])] = (key, location)
 
         return sorted_locations

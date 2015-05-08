@@ -1,6 +1,6 @@
 from flask import Flask, render_template, jsonify, request
 from tube.tube_path_finder import TubePathFinder
-
+import math
 from tube.foursquare_search import FoursquareSearch
 
 
@@ -28,10 +28,18 @@ def get_route():
     locations = dict((x, (y, z)) for x, y, z in data)
     coords = [(x[1], x[2]) for x in data]
     path_finder = TubePathFinder(coords)
-    path, simple_routes = path_finder.get_path()
+    path, simple_routes, distance, stations = path_finder.get_path()
     sorted_locations = path_finder.sort_locations(locations, path)
-
-    return jsonify({"locations": sorted_locations, "route": simple_routes})
+    walking_distances = [path_finder.closest_station_to(lat, lon)[1] for name, (lat, lon) in sorted_locations]
+    walking_speed = 5
+    walking_time = round(reduce(lambda acc, dist: acc + dist, walking_distances) / walking_speed * 60.0, 1)
+    return jsonify({
+        "locations": sorted_locations,
+        "route": simple_routes,
+        "totalDistance": round(distance),
+        "totalTime": round(distance/30.0*60.0, 2) + walking_time,
+        "walkingDistances": walking_distances
+    })
 
 
 if __name__ == "__main__":

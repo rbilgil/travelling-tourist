@@ -15,6 +15,13 @@ $(function() {
     $("#searchBox").focus(function() {
         $('.slider').addClass("closed");
     });
+
+    $('.modal').easyModal();
+
+    $('.modal-close').click(function() {
+        $('.modal').trigger('closeModal');
+    });
+
 });
 
 function getPlaceNames(places) {
@@ -58,6 +65,7 @@ app.controller("SearchController", function($scope, $http) {
     $scope.placeNames = [];
     $scope.places = [];
     $scope.selectedPlaces = [];
+    $scope.route = {};
 
     var map = new GMaps({
         div: '#map',
@@ -87,6 +95,9 @@ app.controller("SearchController", function($scope, $http) {
     };
 
     $scope.getRoute = function() {
+
+        $('.modal').trigger('openModal');
+
         var values = $scope.selectedPlaces.map( function(val) {
            return [val["name"], val["location"]["lat"], val["location"]["lng"]]
         });
@@ -99,12 +110,22 @@ app.controller("SearchController", function($scope, $http) {
             headers: { 'Content-Type': 'application/json' },
             data: JSON.stringify({ "places": values })
         }).success(function(data) {
-          console.log(data)
+            $scope.route = data;
+            console.log(data)
         });
     };
 
     $scope.routingDisabled = function() {
         return $scope.selectedPlaces.length < 2
+    };
+
+    $scope.getWalkingTime = function(index) {
+        var walkingSpeed = 5; // km/h
+        return Math.round($scope.route['walkingDistances'][index] / walkingSpeed * 60) + " mins";
+    };
+
+    $scope.getTubeTravelTime = function(waypoint) {
+        return Math.round(waypoint["time"])
     };
 
 });
