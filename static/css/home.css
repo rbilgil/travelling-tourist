@@ -148,7 +148,7 @@ body {
     text-align: center;
     top: -20px;
     left: 20px;
-    height: 15px;
+    height: 16px;
 }
 
 .line img {
@@ -189,12 +189,12 @@ body {
 
 .journey-between {
     position: relative;
-    width: 80px;
+    width: 130px;
     display: inline-block;
 }
 
 .journey-line {
-    width: 103px;
+    width: 135px;
     border-bottom: 5px solid rgb(23, 113, 153);
     position: relative;
     top: -7px;
