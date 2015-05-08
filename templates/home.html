@@ -53,18 +53,21 @@
     </div>
 <div class="grid" ng-hide="loading">
     <div class="unit whole">
-        <span class="heading">Your Route</span>
-        <span> &mdash; ({[{ route['totalTime'] | number:0 }]} mins of travelling)</span>
+        <span class="heading">Your Route &mdash; ({[{ route['totalTime'] | number:0 }]} mins total)</span>
         <span class="modal-close"><span class="fa fa-times"></span></span>
     </div>
     <div class="unit whole overflow-scroll">
         <div class="grid">
             <div class="unit whole">
+                <p>Below is a near-optimal path that visits every point in your journey:</p>
                 <div ng-repeat="waypoints in route['route']" class="waypoints-container card">
                     <div class="journey-walking">
                         <div ng-if="$index == 0"><strong >Start at {[{ route['locations'][$index][0] }]} </strong></div>
                         <span>Walk from {[{ route['locations'][$index][0] }]} to {[{ waypoints[0]['from'] }]} station.
                         <strong>( {[{ getWalkingTime($index) }]} )</strong></span>
+                    </div>
+                    <div class="journey-time">
+                        Travel via underground ({[{ getTubeJourneyTime(waypoints) }]} mins)
                     </div>
                     <div ng-repeat="waypoint in waypoints" class="waypoints">
                         <div class="journey-node">

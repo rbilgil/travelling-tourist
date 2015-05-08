@@ -210,3 +210,9 @@ body {
     margin-left: -20px;
     margin-top: -20px;
 }
+
+.journey-time {
+    width: 100%;
+    margin: 10px 0;
+    font-weight: 700;
+}

@@ -126,8 +126,8 @@ app.controller("SearchController", function($scope, $http) {
         return Math.round($scope.route['walkingDistances'][index] / walkingSpeed * 60) + " mins";
     };
 
-    $scope.getTubeTravelTime = function(waypoint) {
-        return Math.round(waypoint["time"])
+    $scope.getTubeJourneyTime = function(waypoints) {
+        return Math.round(waypoints.map(function(value){ return value["time"]  }).reduce(function(acc, value) { return acc + value; }));
     };
 
     $scope.getStops = function(numStops) {
