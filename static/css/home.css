@@ -42,10 +42,10 @@ body {
 
 .card {
     background: #fff;
-    border-radius: 2px;
-    -webkit-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.44);
-    -moz-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.44);
-    box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.44);
+    border-radius: 3px;
+    -webkit-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.30);
+    -moz-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.30);
+    box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.30);
 }
 
 .placesContainer {
@@ -113,9 +113,9 @@ body {
     padding: 15px;
     width: 100%;
     height: 100%;
-    max-width: 800px;
-    max-height: 600px;
-    background-color: #fff;
+    max-width: 1000px;
+    max-height: 800px;
+    background-color: #eee;
     overflow: auto;
     border-radius: 2px;
 }
@@ -129,4 +129,84 @@ body {
 
 .modal-close:hover {
     cursor: pointer;
+}
+
+.waypoints {
+    display:inline;
+    width: 100%;
+}
+
+.waypoints-container {
+    padding: 0 10px 15px 20px;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+}
+
+.line {
+    position: absolute;
+    left: 38px;
+    height: 12px;
+    top: -33px;
+}
+
+.line img {
+    height: 100%;
+}
+
+.journey-node {
+    position: relative;
+    display: inline-block;
+    height: 50px;
+    left: 20px;
+    margin: 20px 0 0 0;
+}
+
+.journey-blob {
+    position: absolute;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    border: 3px solid black;
+    left: 50%;
+    top: 30px;
+    margin-left: -10px;
+    z-index: 1;
+}
+
+.journey-node-text {
+    font-size: 0.8em;
+    font-weight: 700;
+    position: absolute;
+    width: 80px;
+    text-align: center;
+    left: -40px;
+    top: 55px;
+}
+
+.journey-between {
+    position: relative;
+    width: 80px;
+    display: inline-block;
+}
+
+.journey-line {
+    width: 103px;
+    border-bottom: 5px solid rgb(23, 113, 153);
+    position: relative;
+    top: -7px;
+    left: 10px;
+}
+
+.journey-walking {
+    margin: 20px 0 0 0;
+}
+
+.spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -20px;
+    margin-top: -20px;
 }

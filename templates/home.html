@@ -46,33 +46,48 @@
 <div id="map"></div>
 
 <div class="modal">
-<div class="grid">
-    <div class="unit whole">
-        <span class="heading">Your Route</span>
-        <span class="modal-close"><span class="fa fa-times"></span></span>
-    </div>
-
-    <div class="unit whole">
-        <div class="content">
-            <h3>Visit places in order:</h3>
-            <span ng-repeat="place in route['locations']">
-                <span ng-if="$index > 0">--></span> <span ng-bind="place[0]"></span>
-            </span>
+    <div class="grid" ng-show="loading">
+        <div class="spinner">
+            <img src="/static/img/spinner.gif" alt="Loading"/>
         </div>
     </div>
+<div class="grid" ng-hide="loading">
     <div class="unit whole">
-        <h3>The route: ( {[{ route['totalTime'] }]} mins spent travelling )</h3>
-
-        <div ng-repeat="waypoints in route['route']">
-            <div ng-if="$index == 0"><strong >Start at {[{ route['locations'][$index][0] }]} </strong></div>
-            <span>Walk from {[{ route['locations'][$index][0] }]} to {[{ waypoints[0]['from'] }]} station. <strong>( {[{ getWalkingTime($index) }]} )</strong></span>
-            <br/>
-            <div ng-repeat="waypoint in waypoints">
-                <span ng-bind="waypoint['from']"></span> --> <span ng-bind="waypoint['to']"></span>, on <span ng-bind="waypoint['line']"></span> line going <span ng-bind="waypoint['direction']"></span>-bound, <strong>{[{ waypoint["stops"] }]} stops, {[{ getTubeTravelTime(waypoint) }]} mins</strong>
+        <span class="heading">Your Route</span>
+        <span> &mdash; ({[{ route['totalTime'] | number:0 }]} mins of travelling)</span>
+        <span class="modal-close"><span class="fa fa-times"></span></span>
+    </div>
+    <div class="unit whole overflow-scroll">
+        <div class="grid">
+            <div class="unit whole">
+                <div ng-repeat="waypoints in route['route']" class="waypoints-container card">
+                    <div class="journey-walking">
+                        <div ng-if="$index == 0"><strong >Start at {[{ route['locations'][$index][0] }]} </strong></div>
+                        <span>Walk from {[{ route['locations'][$index][0] }]} to {[{ waypoints[0]['from'] }]} station.
+                        <strong>( {[{ getWalkingTime($index) }]} )</strong></span>
+                    </div>
+                    <div ng-repeat="waypoint in waypoints" class="waypoints">
+                        <div class="journey-node">
+                            <div class="journey-blob"></div>
+                            <span class="journey-node-text" ng-bind="waypoint['from']"></span>
+                        </div>
+                        <div class="journey-between">
+                            <div class="line">
+                                <img src="" ng-src="/static/img/{[{ waypoint['line'] }]}.png" alt=""/>
+                            </div>
+                            <div class="journey-line {[{ waypoint['line'] }]}"></div>
+                        </div>
+                    </div>
+                    <div class="journey-node">
+                            <span class="journey-node-text" ng-bind="waypoints[waypoints.length - 1]['to']"></span>
+                            <div class="journey-blob"></div>
+                    </div>
+                    <br/><br/><br/>
+                    <div class="journey-walking">
+                        <span>Walk to {[{ route['locations'][$index + 1][0] }]} <strong>( {[{ getWalkingTime($index + 1) }]} )</strong></span>
+                    </div>
+                </div>
             </div>
-            <span>Walk to {[{ route['locations'][$index + 1][0] }]} <strong>( {[{ getWalkingTime($index + 1) }]} )</strong></span>
-            <br/>
-            ------------
         </div>
     </div>
 </div>

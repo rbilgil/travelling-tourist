@@ -66,6 +66,7 @@ app.controller("SearchController", function($scope, $http) {
     $scope.places = [];
     $scope.selectedPlaces = [];
     $scope.route = {};
+    $scope.loading = false;
 
     var map = new GMaps({
         div: '#map',
@@ -102,7 +103,7 @@ app.controller("SearchController", function($scope, $http) {
            return [val["name"], val["location"]["lat"], val["location"]["lng"]]
         });
 
-        console.log(values);
+        $scope.loading = true;
 
         $http({
             url: "/route",
@@ -111,7 +112,8 @@ app.controller("SearchController", function($scope, $http) {
             data: JSON.stringify({ "places": values })
         }).success(function(data) {
             $scope.route = data;
-            console.log(data)
+        }).finally(function() {
+            $scope.loading = false;
         });
     };
 
@@ -126,6 +128,10 @@ app.controller("SearchController", function($scope, $http) {
 
     $scope.getTubeTravelTime = function(waypoint) {
         return Math.round(waypoint["time"])
+    };
+
+    $scope.getStops = function(numStops) {
+        return new Array(numStops - 2);
     };
 
 });
